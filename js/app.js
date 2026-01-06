@@ -25,18 +25,18 @@ function showCars(cars) {
                         <div class="car-name">${car.name}</div>
                         
                         <div class="detail">
-                            <strong>⛽ Yoqilg'i:</strong> ${car.fuel}
+                            <strong> Yoqilg'i:</strong> ${car.fuel}
                         </div>
                         
                         <div class="detail">
-                            <strong>⚙️ Uzatma:</strong> ${car.gearbox || 'Avtomatik'}
+                            <strong> Uzatma:</strong> ${car.gearbox || 'Avtomatik'}
                         </div>
                         
                         <div class="detail">
-                            <strong>🚘 Haydovchi:</strong> ${car.drive}
+                            <strong> Haydovchi:</strong> ${car.drive}
                         </div>
                         
-                        <div class="price">💵 ${car.pricePerDay}/kun</div>
+                        <div class="price"> ${car.pricePerDay}/kun</div>
                     </div>
                 `;
 
